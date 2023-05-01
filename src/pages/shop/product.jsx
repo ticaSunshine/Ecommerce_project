@@ -15,5 +15,5 @@ const cartItemAmount = cartItems[id]
         </div>
         <button className='addToCartBttn' onClick={()=>addToCart(id)}>Add {cartItemAmount > 0 && <>({cartItemAmount})</> }</button>
     </div>
-  )
+  ) 
 }
